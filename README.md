@@ -1,5 +1,7 @@
 # Cabral Lab — Personal Academic Website
 
+https://tadeucabral.github.io/
+
 A static academic website for **Tadeu Luiz Gomes Cabral**, PhD candidate in Physical Chemistry at UNICAMP. Built with vanilla HTML/CSS/JS, optimized for GitHub Pages.
 
 ---
