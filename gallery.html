@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Tadeu L. G. Cabral</title>
+  <meta name="description" content="Visual moments from the lab, conferences, and scientific life.">
+  <meta property="og:title" content="Gallery — Tadeu L. G. Cabral">
+  <meta property="og:description" content="Journal covers, conference moments, and behind-the-scenes.">
+  <meta property="og:image" content="assets/generated/og-image.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/logo-large.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Home"><img src="assets/images/logo.svg" alt="TC monogram" width="36" height="36" class="logo-img"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+        <a href="collaborations.html" class="nav-link">Collaborations</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">Google Scholar ↗</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <p class="section-eyebrow">Gallery</p>
+        <h1>Visual stories from the lab</h1>
+        <p class="lead">Group photos, conference moments, and highlights from the research groups I've been privileged to be part of.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid" id="gallery-grid">
+          
+          <!-- NEW: Journal Front Cover -->
+          <figure class="gallery-item" data-caption="Journal Front Cover — Collaboration Paper (ChemSusChem)">
+            <div class="gallery-thumb">
+              <img src="assets/gallery/frontcover.png" alt="Journal Front Cover Artwork" loading="lazy">
+            </div>
+            <figcaption>Journal Front Cover</figcaption>
+          </figure>
+
+          <!-- 1. MPI Group -->
+          <figure class="gallery-item" data-caption="Molecular Simulations and Design Group — Max Planck Institute, Magdeburg (2024)">
+            <div class="gallery-thumb">
+              <img src="assets/gallery/mpi-group.png" alt="Group photo at Max Planck Institute" loading="lazy">
+            </div>
+            <figcaption>Max Planck Institute Group</figcaption>
+          </figure>
+
+          <!-- 2. UNICAMP NMR Lab Group -->
+          <figure class="gallery-item" data-caption="Laboratory of Physical Organic Chemistry (LQFO) — UNICAMP">
+            <div class="gallery-thumb">
+              <img src="assets/gallery/unicamp-nmr-group.png" alt="NMR Lab Group at UNICAMP" loading="lazy">
+            </div>
+            <figcaption>LQFO Group, UNICAMP</figcaption>
+          </figure>
+
+          <!-- 3. QUITEL Conference -->
+          <figure class="gallery-item" data-caption="QUITEL 2026 — Conference Group Photo">
+            <div class="gallery-thumb">
+              <img src="assets/gallery/quitel-2026.png" alt="QUITEL Conference Group Photo" loading="lazy">
+            </div>
+            <figcaption>QUITEL 2026</figcaption>
+          </figure>
+
+          <!-- 4. iPoLS Conference -->
+          <figure class="gallery-item" data-caption="iPoLS 2026 — International Physics of Living Systems">
+            <div class="gallery-thumb">
+              <img src="assets/gallery/ipols-2026.png" alt="iPoLS Conference Group Photo" loading="lazy">
+            </div>
+            <figcaption>iPoLS 2026</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lightbox-close" aria-label="Close">×</button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="">
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="" width="28" height="28"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a><p class="footer-desc">NMR spectroscopy & computational chemistry for molecular recognition.</p></div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="publications.html">Publications</a></li><li><a href="collaborations.html">Collaborations</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Connect</h4><ul class="footer-links"><li><a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></li><li><a href="https://orcid.org/0000-0003-3222-065X" target="_blank" rel="noopener">ORCID ↗</a></li><li><a href="https://www.linkedin.com/in/tadeu-l-g-cabral-bb470a273/" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="http://lattes.cnpq.br/0980261362824278" target="_blank" rel="noopener">Lattes ↗</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 Tadeu Luiz Gomes Cabral. Built as a static site for GitHub Pages.</p><p class="footer-mono">Last updated: November 2026</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    (function () {
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      const cap = document.getElementById('lightbox-caption');
+      document.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const src = item.querySelector('img')?.src || '';
+          img.src = src || '';
+          img.style.display = src ? 'block' : 'none';
+          cap.textContent = item.dataset.caption || '';
+          lb.hidden = false;
+          document.body.style.overflow = 'hidden';
+        });
+      });
+      lb.addEventListener('click', (e) => {
+        if (e.target === lb || e.target.classList.contains('lightbox-close')) {
+          lb.hidden = true;
+          document.body.style.overflow = '';
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !lb.hidden) {
+          lb.hidden = true;
+          document.body.style.overflow = '';
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

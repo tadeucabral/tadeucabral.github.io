@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Tadeu L. G. Cabral</title>
+  <meta name="description" content="Get in touch with Tadeu Luiz Gomes Cabral for collaborations, research inquiries, or speaking invitations.">
+  <meta property="og:title" content="Contact — Tadeu L. G. Cabral">
+  <meta property="og:description" content="Contact information and collaboration inquiries.">
+  <meta property="og:image" content="assets/generated/og-image.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/logo-large.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Home"><img src="assets/images/logo.svg" alt="TC monogram" width="36" height="36" class="logo-img"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+        <a href="collaborations.html" class="nav-link">Collaborations</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="teaching.html" class="nav-link">Teaching</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">Google Scholar ↗</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <p class="section-eyebrow">Contact</p>
+        <h1>Let's collaborate</h1>
+        <p class="lead">Whether you have a question about my research, an idea for a collaboration, or a speaking invitation, I'd be glad to hear from you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-form-wrapper reveal">
+          <h2>Send a message</h2>
+          <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name"></div>
+            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com"></div>
+            <div class="form-group"><label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="Collaboration">Research collaboration</option>
+                <option value="Speaking">Speaking invitation</option>
+                <option value="Question">General question</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="6" required placeholder="Your message…"></textarea></div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-note">This form uses Formspree. Replace <code>YOUR_FORM_ID</code> in the HTML with your own ID. Alternatively, set <code>useMailto: true</code> in <code>main.js</code> to use a mailto fallback.</p>
+          </form>
+        </div>
+
+        <aside class="contact-info reveal">
+          <h2>Direct contact</h2>
+          <div class="contact-item"><h4>Email</h4><a href="mailto:tlgcabral@gmail.com">tlgcabral@gmail.com</a></div>
+          <div class="contact-item"><h4>Academic email</h4><a href="mailto:t219502@dac.unicamp.br">t219502@dac.unicamp.br</a></div>
+          <div class="contact-item"><h4>Location</h4><p>Institute of Chemistry, UNICAMP<br>Campinas, SP, Brazil</p></div>
+          <h3 class="social-heading">Find me online</h3>
+          <div class="social-links">
+            <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener" class="social-link" aria-label="Google Scholar"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>Scholar</a>
+            <a href="https://orcid.org/0000-0003-3222-065X" target="_blank" rel="noopener" class="social-link" aria-label="ORCID"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>ORCID</a>
+            <a href="https://www.linkedin.com/in/tadeu-l-g-cabral-bb470a273/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
+            <a href="http://lattes.cnpq.br/0980261362824278" target="_blank" rel="noopener" class="social-link" aria-label="Lattes CV"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Lattes</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal"><p class="section-eyebrow">FAQ</p><h2>Common questions</h2></div>
+        <div class="faq-list reveal">
+          <details class="faq-item"><summary>Are you open to research collaborations?</summary><p>Yes—I'm always interested in collaborations that combine NMR spectroscopy with computational methods, especially in chiral recognition, supramolecular systems, or method development. Please reach out with a brief description of your project.</p></details>
+          <details class="faq-item"><summary>Do you accept visiting students or interns?</summary><p>This depends on availability and alignment with ongoing projects. Feel free to send a CV and a short motivation letter.</p></details>
+          <details class="faq-item"><summary>Can you share data or code from your publications?</summary><p>Yes—most of my recent work includes open data or code in the supporting information. If something isn't publicly available, contact me and I'll do my best to share it.</p></details>
+          <details class="faq-item"><summary>Are you available for talks or workshops?</summary><p>I'm happy to discuss invited talks, seminars, or workshops on diffusion NMR, GNAT, or multiscale simulation of chiral systems. Please use the contact form.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="" width="28" height="28"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a><p class="footer-desc">NMR spectroscopy & computational chemistry for molecular recognition.</p></div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="publications.html">Publications</a></li><li><a href="collaborations.html">Collaborations</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Connect</h4><ul class="footer-links"><li><a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></li><li><a href="https://orcid.org/0000-0003-3222-065X" target="_blank" rel="noopener">ORCID ↗</a></li><li><a href="https://www.linkedin.com/in/tadeu-l-g-cabral-bb470a273/" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="http://lattes.cnpq.br/0980261362824278" target="_blank" rel="noopener">Lattes ↗</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 Tadeu Luiz Gomes Cabral. Built as a static site for GitHub Pages.</p><p class="footer-mono">Last updated: November 2026</p></div>
+  </footer>
+
+  <script src="assets/js/publications.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

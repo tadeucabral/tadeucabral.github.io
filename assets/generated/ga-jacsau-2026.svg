@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#11161f"/>
+  <g stroke="#4db8a8" stroke-width="1.5" fill="none" opacity="0.6">
+    <circle cx="200" cy="140" r="60"/>
+    <circle cx="200" cy="140" r="70" stroke-dasharray="3 4"/>
+  </g>
+  <g fill="#4db8a8">
+    <circle cx="200" cy="80" r="3"/><circle cx="248" cy="107" r="3"/>
+    <circle cx="248" cy="173" r="3"/><circle cx="200" cy="200" r="3"/>
+    <circle cx="152" cy="173" r="3"/><circle cx="152" cy="107" r="3"/>
+  </g>
+  <g stroke="#4db8a8" stroke-width="1.2" fill="none" opacity="0.4">
+    <path d="M200 80 Q260 120 248 173"/>
+    <path d="M200 80 Q140 120 152 173"/>
+  </g>
+  <text x="200" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="12" fill="#e6edf3">Macrocycle</text>
+  <text x="200" y="270" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#5c6a7a">conformational flexibility → enantioselectivity</text>
+</svg>

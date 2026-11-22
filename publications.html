@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — Tadeu L. G. Cabral</title>
+  <meta name="description" content="Peer-reviewed publications by Tadeu Luiz Gomes Cabral on NMR, DOSY, chiral discrimination, and computational chemistry.">
+  <meta property="og:title" content="Publications — Tadeu L. G. Cabral">
+  <meta property="og:description" content="Peer-reviewed articles and preprints.">
+  <meta property="og:image" content="assets/generated/og-image.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/logo-large.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Home"><img src="assets/images/logo.svg" alt="TC monogram" width="36" height="36" class="logo-img"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="publications.html" class="nav-link active">Publications</a>
+        <a href="collaborations.html" class="nav-link">Collaborations</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="teaching.html" class="nav-link">Teaching</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">Google Scholar ↗</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-text">
+          <p class="section-eyebrow">Publications</p>
+          <h1>Peer-reviewed articles & preprints</h1>
+          <p class="lead">A complete list of my scientific output. Filter by topic or search across titles, abstracts, and tags.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- IMPACT STATS BAR -->
+        <div class="impact-stats reveal">
+          <div class="impact-stat">
+            <span class="impact-stat-number" id="stat-citations">—</span>
+            <span class="impact-stat-label">Total Citations</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-stat-number" id="stat-hindex">—</span>
+            <span class="impact-stat-label">h-index</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-stat-number" id="stat-i10index">—</span>
+            <span class="impact-stat-label">i10-index</span>
+          </div>
+          <div class="impact-stat">
+            <span class="impact-stat-number" id="stat-publications">—</span>
+            <span class="impact-stat-label">Publications</span>
+          </div>
+          <p class="impact-note">Metrics synced from <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener">Google Scholar</a> · Updated November 2026</p>
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="pub-controls reveal">
+          <div class="search-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="search" id="pub-search" placeholder="Search publications by title, abstract, or tag…" aria-label="Search publications">
+          </div>
+          <div class="filter-tags" id="filter-tags" role="group" aria-label="Filter by tag"></div>
+        </div>
+
+        <!-- PUBLICATION LIST -->
+        <div class="pub-list" id="pub-list" aria-live="polite"></div>
+        <p class="pub-count" id="pub-count"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="" width="28" height="28"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a><p class="footer-desc">NMR spectroscopy & computational chemistry for molecular recognition.</p></div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="publications.html">Publications</a></li><li><a href="collaborations.html">Collaborations</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Connect</h4><ul class="footer-links"><li><a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></li><li><a href="https://orcid.org/0000-0003-3222-065X" target="_blank" rel="noopener">ORCID ↗</a></li><li><a href="https://www.linkedin.com/in/tadeu-l-g-cabral-bb470a273/" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="http://lattes.cnpq.br/0980261362824278" target="_blank" rel="noopener">Lattes ↗</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 Tadeu Luiz Gomes Cabral. Built as a static site for GitHub Pages.</p><p class="footer-mono">Last updated: November 2026</p></div>
+  </footer>
+
+  <script src="assets/js/publications.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

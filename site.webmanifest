@@ -1,0 +1,17 @@
+{
+  "name": "Tadeu L. G. Cabral — NMR & Computational Chemistry",
+  "short_name": "Cabral Lab",
+  "description": "Personal academic website of Tadeu Luiz Gomes Cabral.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e14",
+  "theme_color": "#4db8a8",
+  "icons": [
+    {
+      "src": "assets/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

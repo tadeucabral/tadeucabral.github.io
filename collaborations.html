@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborations — Tadeu L. G. Cabral</title>
+  <meta name="description" content="Research collaborations and network of Tadeu Luiz Gomes Cabral across NMR, chemistry, and computational science.">
+  <meta property="og:title" content="Collaborations — Tadeu L. G. Cabral">
+  <meta property="og:description" content="Science is a team sport. Selected collaborators and partners.">
+  <meta property="og:image" content="assets/generated/og-image.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/logo-large.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Home"><img src="assets/images/logo.svg" alt="TC monogram" width="36" height="36" class="logo-img"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+        <a href="collaborations.html" class="nav-link active">Collaborations</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="teaching.html" class="nav-link">Teaching</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">Google Scholar ↗</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg><svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <p class="section-eyebrow">Collaborations</p>
+        <h1>Science is a team sport</h1>
+        <p class="lead">My research would not be possible without the generosity of collaborators across disciplines—from synthetic chemistry and materials science to computational physics.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="collab-intro reveal">
+          <h2>Collaboration philosophy</h2>
+          <p>I believe the most interesting problems live at the boundaries between fields. Whether you work on chiral supramolecular systems, method development for NMR, or multiscale simulation, I am always open to conversations that begin with <em>"what if we tried…"</em>.</p>
+          <p>If you believe there is a natural synergy with your work, please <a href="contact.html">get in touch</a>.</p>
+        </div>
+        <div class="collab-stats reveal">
+          <div class="stat"><span class="stat-number">10</span><span class="stat-label">Active collaborations</span></div>
+          <div class="stat"><span class="stat-number">5</span><span class="stat-label">Countries</span></div>
+          <div class="stat"><span class="stat-number">2</span><span class="stat-label">Industrial partners</span></div>
+          <div class="stat"><span class="stat-number">6</span><span class="stat-label">Co-supervised students</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         WORLD MAP OF COLLABORATIONS
+         ============================================ -->
+    <section class="section map-section" id="collab-map-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Global Network</p>
+          <h2>Where we collaborate</h2>
+          <p class="section-desc">Pins mark institutions and partners across our network. Hover a pin for details, click for more.</p>
+        </div>
+        <div class="map-wrapper reveal">
+          <div id="collab-map" aria-label="World map showing collaboration locations"></div>
+        </div>
+        <div class="map-legend reveal">
+          <span class="legend-item"><span class="legend-dot"></span>Collaborating institution</span>
+          <span class="legend-item"><span class="legend-hint">Click a pin to see project details</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Network</p>
+          <h2>Selected collaborators</h2>
+          <p class="section-desc">A growing list—updated as projects evolve.</p>
+        </div>
+        <div class="collab-grid reveal">
+          <article class="collab-card">
+            <div class="collab-initials">CT</div>
+            <h3>Prof. Dr. Cláudio F. Tormena</h3>
+            <p class="collab-org">UNICAMP · Brazil</p>
+            <p class="collab-topic">NMR method development, DOSY, chiral recognition</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">MS</div>
+            <h3>Prof. Dr. Matthias Stein</h3>
+            <p class="collab-org">Max Planck Institute · Germany</p>
+            <p class="collab-topic">Molecular dynamics, QM/MM, enantioselective recognition</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">MN</div>
+            <h3>Prof. Dr. Mathias Nilsson</h3>
+            <p class="collab-org">University of Manchester · UK</p>
+            <p class="collab-topic">Diffusion NMR, pulse sequence design, GNAT</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">GP</div>
+            <h3>Dr. Guilherme F. Dal Poggetto</h3>
+            <p class="collab-org">Merck &amp; Co. · USA</p>
+            <p class="collab-topic">Industrial NMR applications, data processing</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">JP</div>
+            <h3>Prof. Dr. Julio C. Pastre</h3>
+            <p class="collab-org">UNICAMP · Brazil</p>
+            <p class="collab-topic">Mechanistic organic chemistry, reaction monitoring</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">MF</div>
+            <h3>Prof. Dr. Marco A. B. Ferreira</h3>
+            <p class="collab-org">UFSCar · Brazil</p>
+            <p class="collab-topic">Boron chemistry, NMR structural elucidation</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">PF</div>
+            <h3>Prof. Dr. Pablo S. Fernández</h3>
+            <p class="collab-org">UNICAMP · Brazil</p>
+            <p class="collab-topic">Electrochemistry, cation effects, quantitative NMR</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">WL</div>
+            <h3>Prof. Dr. Watson Loh</h3>
+            <p class="collab-org">UNICAMP · Brazil</p>
+            <p class="collab-topic">Supramolecular systems, surfactants, DOSY</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">LL</div>
+            <h3>Prof. Dr. Luciano M. Liao</h3>
+            <p class="collab-org">UFG · Brazil</p>
+            <p class="collab-topic">3D HSQC-DOSY, complex mixture analysis</p>
+          </article>
+          <article class="collab-card">
+            <div class="collab-initials">RA</div>
+            <h3>Prof. Dr. Rodrigo G. Amorim</h3>
+            <p class="collab-org">UFF · Brazil</p>
+            <p class="collab-topic">DFT of 2D materials, gas sensing, nanodevices</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Partners</p>
+          <h2>Institutional & industrial partnerships</h2>
+        </div>
+        <div class="partner-grid reveal">
+          <div class="partner-card"><span class="partner-mark">UNICAMP</span><p>University of Campinas · Brazil</p></div>
+          <div class="partner-card"><span class="partner-mark">MPI</span><p>Max Planck Institute · Germany</p></div>
+          <div class="partner-card"><span class="partner-mark">UFF</span><p>Universidade Federal Fluminense · Brazil</p></div>
+          <div class="partner-card"><span class="partner-mark">UFSCar</span><p>Universidade Federal de São Carlos · Brazil</p></div>
+          <div class="partner-card"><span class="partner-mark">UoM</span><p>University of Manchester · UK</p></div>
+          <div class="partner-card"><span class="partner-mark">Merck</span><p>Merck &amp; Co. · USA</p></div>
+          <div class="partner-card"><span class="partner-mark">Croda</span><p>Croda International · UK / Brazil</p></div>
+          <div class="partner-card"><span class="partner-mark">FAPESP</span><p>São Paulo Research Foundation · Brazil</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="" width="28" height="28"><span class="logo-text">Cabral <span class="accent">Lab</span></span></a><p class="footer-desc">NMR spectroscopy & computational chemistry for molecular recognition.</p></div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="publications.html">Publications</a></li><li><a href="collaborations.html">Collaborations</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Connect</h4><ul class="footer-links"><li><a href="https://scholar.google.com/citations?user=h4mpgE4AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></li><li><a href="https://orcid.org/0000-0003-3222-065X" target="_blank" rel="noopener">ORCID ↗</a></li><li><a href="https://www.linkedin.com/in/tadeu-l-g-cabral-bb470a273/" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="http://lattes.cnpq.br/0980261362824278" target="_blank" rel="noopener">Lattes ↗</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 Tadeu Luiz Gomes Cabral. Built as a static site for GitHub Pages.</p><p class="footer-mono">Last updated: November 2026</p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/map.js"></script>
+</body>
+</html>

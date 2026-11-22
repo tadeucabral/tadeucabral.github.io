@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#11161f"/>
+    </linearGradient>
+    <radialGradient id="ogglow" cx="70%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4db8a8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#4db8a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+  <circle cx="850" cy="250" r="300" fill="url(#ogglow)"/>
+  <g transform="translate(80, 120)">
+    <text x="0" y="0" font-family="Inter, sans-serif" font-weight="700" font-size="52" fill="#e6edf3">Tadeu L. G. Cabral</text>
+    <text x="0" y="56" font-family="JetBrains Mono, monospace" font-size="20" fill="#4db8a8">NMR Spectroscopy · Computational Chemistry</text>
+    <text x="0" y="100" font-family="Inter, sans-serif" font-size="18" fill="#8b98a9">PhD Candidate · UNICAMP &amp; Max Planck Institute</text>
+    <text x="0" y="150" font-family="Inter, sans-serif" font-size="16" fill="#5c6a7a">Diffusion NMR · Chiral Discrimination · Multiscale Simulations</text>
+  </g>
+  <g transform="translate(980, 450)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#4db8a8" stroke-width="2" opacity="0.5"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#4db8a8" stroke-width="1.5" opacity="0.3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="28" fill="#e6edf3">TC</text>
+  </g>
+</svg>

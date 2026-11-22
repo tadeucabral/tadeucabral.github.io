@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#11161f"/>
+  <g stroke="#4db8a8" stroke-width="1.5" fill="none" opacity="0.4">
+    <circle cx="200" cy="150" r="80"/>
+    <circle cx="200" cy="150" r="50"/>
+    <line x1="80" y1="150" x2="320" y2="150"/>
+    <line x1="200" y1="30" x2="200" y2="270"/>
+  </g>
+  <g fill="#4db8a8" opacity="0.7">
+    <circle cx="200" cy="150" r="6"/>
+    <circle cx="270" cy="110" r="3"/>
+    <circle cx="130" cy="190" r="3"/>
+  </g>
+  <text x="200" y="285" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#5c6a7a" letter-spacing="2">GRAPHICAL ABSTRACT</text>
+</svg>
