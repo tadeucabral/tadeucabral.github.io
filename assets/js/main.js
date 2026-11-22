@@ -8,14 +8,24 @@
   // ---------- THEME ----------
   const root = document.documentElement;
   const themeToggle = document.getElementById('theme-toggle');
-  const stored = localStorage.getItem('theme');
-  if (stored) root.setAttribute('data-theme', stored);
-  else if (window.matchMedia('(prefers-color-scheme: light)').matches) root.setAttribute('data-theme', 'light');
+  
+  // FORCE LIGHT MODE AS DEFAULT
+  // We only check localStorage to see if the user manually clicked the toggle.
+  // We completely ignore the browser/OS system preferences.
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme === 'dark') {
+    root.setAttribute('data-theme', 'dark');
+  } else {
+    // If no stored theme, or if it's 'light', force light mode.
+    root.setAttribute('data-theme', 'light');
+  }
+
   if (themeToggle) {
     themeToggle.addEventListener('click', () => {
-      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
+      const currentTheme = root.getAttribute('data-theme');
+      const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', nextTheme);
+      localStorage.setItem('theme', nextTheme);
     });
   }
 
